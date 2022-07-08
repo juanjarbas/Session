@@ -1,0 +1,113 @@
+/* Importação Da Fonte */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,300&display=swap');
+
+:root {
+    --preto: #000;
+    --branco: #fff;
+    --cor-principal: #6190e8;
+}
+
+*::selection {
+    background: var(--preto);
+    color: #fff;
+  }
+
+/* Seletor Universal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo Da Página */
+body {
+    font-family: "Poppins", sans-serif;
+    color: var(--branco);
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    background: linear-gradient(10deg, #6190e8, #a7bfe8);
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container a {
+    text-decoration: none;
+    color:  var(--preto);
+}
+
+.texto {
+    margin-top: 30px;
+}
+
+.texto-user {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.cx {
+    position: relative;
+    margin: 20px 0 40px;
+    width: 300px;
+}
+
+.cx input {
+    background-color: transparent;
+    border: 0;
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+    color: var(--branco);
+    border: 2px solid #fff;
+    border-radius: 50px;
+    text-align: center;
+    outline: none;
+}
+
+.cx input::placeholder {
+    text-align: center;
+    color: var(--branco);
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    width: 50%;
+    margin-left: 25%;
+    background: transparent;
+    border: 2px solid #fff;
+    color: var(--branco);
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 50px;
+}
+
+.btn:hover {
+    background: var(--branco);
+    color: var(--cor-principal);
+}
+
+.erro {
+    color: var(--preto);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+span {
+    color: var(--branco);
+}
