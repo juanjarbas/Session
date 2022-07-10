@@ -1,8 +1,8 @@
 <?php
     session_start();
-    if( ($_SESSION['login-session'] != 'usuario@user.com') ||
+    if( ($_SESSION['login-session'] != 'adm') ||
         ($_SESSION['senha-session'] != '123') ){
-            header('Location: ../index.php?msg= E-mail ou senha incorretos.');
+            header('Location: ../index.php?msg= Sessão Expirada.');
         }
 
 ?>

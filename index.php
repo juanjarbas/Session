@@ -19,7 +19,7 @@
 
             <form name="login" method="post" action="controller/verifica-login.php">
                 <div class="cx">
-                    <input type="email" name="txtlogin" placeholder="jay@yahoo.com" title="Digite Seu E-mail" required />
+                    <input type="text" name="txtlogin" placeholder="Usuário" title="Digite Seu Usuário" required />
                 </div>
 
                 <div class="cx">
